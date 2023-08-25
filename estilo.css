@@ -5,7 +5,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	text-decoration: none;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 body {
@@ -356,7 +356,7 @@ input {
 
 
 
-/* Estilos para dispositivos menores (responsividade) */
+/* Eu tentei */
 @media screen and (max-width: 768px) {
     .form-row{
         flex-direction: column;
