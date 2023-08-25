@@ -1,0 +1,414 @@
+/* DOCUMENTO CSS */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: 1px solid black;
+}
+
+body {
+	font-family: Helvetica;
+	background-image: url(imagens/fundo.png);
+	background-color: gray;
+	
+}
+
+.box{
+	max-width: 550px;
+	height: 450px;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #4c4c4c;
+    border-radius: 1em;
+}
+
+.box2{
+	max-width: 600px;
+	height: 500px;
+    margin: 9% auto;
+    padding: 20px;
+    background-color: #4c4c4c;
+    border-radius: 1em;
+}
+.box3{
+	max-width: 600px;
+	height: 450px;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #4c4c4c;
+    border-radius: 1em;
+}
+
+
+input {
+	height: 50px;
+	width: 500px;
+	border-radius: 5px;
+	border: none;
+	margin: 30px 0 15px 0;
+	background-color: #4c4c4c;
+	color: #ddd;
+	padding: 10px;
+	font-size: 18px;
+	
+}
+ h1 {
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	
+}
+input::placeholder{
+	color: #a4a4a4;
+	font-weight: 400px;
+}
+
+
+.button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #3498db;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 35%;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin-left: 35%; 
+  }
+  
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+.button:hover span {
+	padding-right: 25px;
+  }
+  
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+
+.button_2 {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #3498db;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 35%;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin-left: 35%;
+  }
+  
+.button_2 span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+.button_2 span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+.button_2:hover span {
+	padding-right: 25px;
+  }
+  
+.button_2:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+.button_3 {
+	
+	border-radius: 4px;
+	background-color: #3498db;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 35%;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin-left: 35%;
+  }
+  
+.button_3 span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+.button_3 span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	
+	transition: 0.5s;
+  }
+  
+.button_3:hover span {
+	padding-right: 25px;
+  }
+  
+.button_3:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+
+
+label {
+	color: white;
+	width: 10%;
+	height: 2%;
+
+
+}
+
+
+
+.acesso{
+	margin-left: 5%;
+	width: 90%;
+}
+
+
+
+.encerramento h1{
+	font-size: 35px;
+	text-align: center;
+}
+
+.encerramento h2{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 6%;
+	width: 70%;
+	margin-left: 15%;
+}
+
+
+.linha{
+	text-align: right;
+	color: blue;
+	margin-right: 3%;
+	font-size: 20px;
+	margin-top: -5%;
+
+}
+
+.form-row {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.form-column {
+    margin: 0% 2%;
+    flex:10;
+}
+
+h4{
+    text-align: right;
+}
+
+a{
+    width: 100%;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 700px;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: #4c4c4c;
+    border-radius: 1em;
+}
+
+/* Estilos para a barra de opções */
+.menu {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    margin-bottom: 1em;
+    text-align: center;
+}
+.coisa {
+    margin: 2% 30%;
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: large;
+}
+
+.cor{
+    background-color: #3498db;
+    color: white;
+}
+.cor:hover {
+    background-color: #2980b9;
+}
+.saida {
+    margin: 2% 30%;
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: large;
+	margin-top: 15%;
+}
+
+.volta{
+    background-color: #3498db;
+    color: white;
+}
+.volta:hover {
+    background-color: #2980b9;
+}
+.option {
+    margin: 2% 30%;
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: large;
+}
+
+.azul{
+    background-color: #3498db;
+    color: white;
+}
+.azul:hover {
+    background-color: #2980b9;
+}
+
+
+
+/* Formulários */
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 1% auto;
+}
+
+.form-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form-column {
+    margin: 0% 2%;
+    flex:1;
+}
+
+
+input {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+/* Estilos para dispositivos menores (responsividade) */
+@media screen and (max-width: 768px) {
+    .form-row{
+        flex-direction: column;
+    }
+    .container{
+        margin: 5% 2%;
+    }
+    .option{
+        min-width: max-content;
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 1128px) {
+
+    .inicio {
+        width: 100%;
+		font-size: left;
+		min-width: max-content;
+		
+    }
+	.button  {
+		font-size: small;
+	}
+
+	.button_2 {
+		font-size: small;
+	}
+
+	.button_3 {
+		font-size: small;
+	}
+}
+
+@media screen and (max-width: 1128px) {
+
+    .coisa_2 {
+        width: 90%;
+		min-width: max-content;
+	}
+
+	
+	
+}
+
+@media screen and (max-width: 1128px) {
+
+    .fim {
+        width: 90%;
+		min-width: max-content;
+	}
+
+	
+	
+}
